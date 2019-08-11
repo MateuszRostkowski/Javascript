@@ -1,16 +1,13 @@
-
-// the first alert
-alert("Hello, World!");
-
-// Single line comment
-
-/* Multi
-Line
-Comment */
+var youLikeMeat = false;
+var myNum = 10;
 
 
-// the second alert
-alert("Hello, World!");
+if (youLikeMeat) {
 
+    document.write("you like meat");
 
-// Javascript runs from top to bottom
+} else {
+
+    document.write("you hate meat")
+
+}
