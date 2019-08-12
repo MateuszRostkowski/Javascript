@@ -1,7 +1,13 @@
-var links  = document.getElementsByTagName("a");
+function getAverage(a,b) {
 
-for(i = 0; i < links.length; i++) {
-
-    links[i].className = "Link-" + i;
+    var average = (a + b) / 2;
+    console.log(average);
+    return average;
 
 }
+
+
+var myResult = getAverage(7,8);
+getAverage(5,3);
+getAverage(20,10);
+console.log(myResult);
