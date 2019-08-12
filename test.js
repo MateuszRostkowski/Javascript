@@ -1,29 +1,11 @@
-
-//Global variable
-var foo = 20;
-
-
-// Local variable
-// It can't be call outside of the function
-function myFunction() {
-    var bar  = 10;
-}
+var a = 7;
+var b = 5;
 
 
-function getAverage (a,b) {
+console.log(a + b);
 
-    var average = (a + b) / 2; //local variable
-    console.log(average);
-    return average;
-
-}
-
-var myResult = getAverage(7, 11); //global variable
-
-function logResult() {
-
-    console.log("the average is: " + myResult + " inside the function");
-
-}
-
-logResult();
+console.log(Math.round(7.2)); //rounding to the nearest number
+console.log(Math.floor(7.8)); //rounding downwards
+console.log(Math.ceil(7.2)); //rounding upwards
+console.log(Math.max(7,4,6,9)); //finding the highest number
+console.log(Math.PI); //return Pi number;
